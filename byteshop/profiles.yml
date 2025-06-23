@@ -1,0 +1,8 @@
+dbt_byteshop:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      # Sử dụng đường dẫn tuyệt đối đến file database của bạn
+      # Đây là đường dẫn chính xác trên máy của bạn
+      path: E:\BigData\byteshop\data\byteshop.db

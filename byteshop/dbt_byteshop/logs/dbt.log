@@ -1,0 +1,360 @@
+[0m18:45:28.603943 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FF0A69E9D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FF0A309190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FF0A69D9D0>]}
+
+
+============================== 18:45:28.616941 | 5f31b205-3dd2-4f2c-95e3-52fe4ce410af ==============================
+[0m18:45:28.616941 [info ] [MainThread]: Running with dbt=1.10.2
+[0m18:45:28.617938 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\trong\\.dbt', 'log_path': 'E:\\BigData\\byteshop\\dbt_byteshop\\logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m18:45:28.819367 [info ] [MainThread]: dbt version: 1.10.2
+[0m18:45:28.820367 [info ] [MainThread]: python version: 3.11.9
+[0m18:45:28.821367 [info ] [MainThread]: python path: C:\Users\trong\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
+[0m18:45:28.821367 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m18:45:28.822368 [info ] [MainThread]: Using profiles dir at C:\Users\trong\.dbt
+[0m18:45:28.823368 [info ] [MainThread]: Using profiles.yml file at C:\Users\trong\.dbt\profiles.yml
+[0m18:45:28.823368 [info ] [MainThread]: Using dbt_project.yml file at E:\BigData\byteshop\dbt_byteshop\dbt_project.yml
+[0m18:45:28.928377 [info ] [MainThread]: Configuration:
+[0m18:45:28.929368 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m18:45:28.929368 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m18:45:28.930374 [info ] [MainThread]: Required dependencies:
+[0m18:45:28.930374 [debug] [MainThread]: Executing "git --help"
+[0m18:45:28.967368 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m18:45:28.968368 [debug] [MainThread]: STDERR: "b''"
+[0m18:45:28.969367 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m18:45:28.969367 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m18:45:28.970367 [info ] [MainThread]: [31m1 check failed:[0m
+[0m18:45:28.970367 [info ] [MainThread]: dbt looked for a profiles.yml file in C:\Users\trong\.dbt\profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m18:45:28.972375 [debug] [MainThread]: Command `dbt debug` failed at 18:45:28.971368 after 0.47 seconds
+[0m18:45:28.972375 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FF0A6A4AD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FF045CF7D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FF08F91750>]}
+[0m18:45:28.973367 [debug] [MainThread]: Flushing usage events
+[0m18:45:31.141322 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:05:07.525463 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F85DC7EDD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F862EE9910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F862EE9690>]}
+
+
+============================== 19:05:07.537461 | 4a755831-92c7-4efa-9336-6f34d29dab94 ==============================
+[0m19:05:07.537461 [info ] [MainThread]: Running with dbt=1.10.2
+[0m19:05:07.538462 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\trong\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'E:\\BigData\\byteshop\\dbt_byteshop\\logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m19:05:07.720261 [info ] [MainThread]: dbt version: 1.10.2
+[0m19:05:07.721262 [info ] [MainThread]: python version: 3.11.9
+[0m19:05:07.722263 [info ] [MainThread]: python path: C:\Users\trong\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
+[0m19:05:07.722849 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m19:05:07.722849 [info ] [MainThread]: Using profiles dir at C:\Users\trong\.dbt
+[0m19:05:07.723855 [info ] [MainThread]: Using profiles.yml file at C:\Users\trong\.dbt\profiles.yml
+[0m19:05:07.724866 [info ] [MainThread]: Using dbt_project.yml file at E:\BigData\byteshop\dbt_byteshop\dbt_project.yml
+[0m19:05:07.833855 [info ] [MainThread]: Configuration:
+[0m19:05:07.834922 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m19:05:07.835855 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m19:05:07.836854 [info ] [MainThread]: Required dependencies:
+[0m19:05:07.837853 [debug] [MainThread]: Executing "git --help"
+[0m19:05:07.874435 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m19:05:07.874435 [debug] [MainThread]: STDERR: "b''"
+[0m19:05:07.875441 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m19:05:07.876440 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m19:05:07.876440 [info ] [MainThread]: [31m1 check failed:[0m
+[0m19:05:07.877437 [info ] [MainThread]: dbt looked for a profiles.yml file in C:\Users\trong\.dbt\profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m19:05:07.878436 [debug] [MainThread]: Command `dbt debug` failed at 19:05:07.878436 after 0.45 seconds
+[0m19:05:07.879435 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F862EA4890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F85CE2F7D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F862E97A90>]}
+[0m19:05:07.879435 [debug] [MainThread]: Flushing usage events
+[0m19:05:09.057500 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:05:35.225269 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026F64F138D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026F64EE5990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026F64F13750>]}
+
+
+============================== 19:05:35.229280 | 208a48ff-40c2-4ce0-ade4-7773c529120d ==============================
+[0m19:05:35.229280 [info ] [MainThread]: Running with dbt=1.10.2
+[0m19:05:35.231270 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\trong\\.dbt', 'log_path': 'E:\\BigData\\byteshop\\dbt_byteshop\\logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m19:05:35.247517 [info ] [MainThread]: dbt version: 1.10.2
+[0m19:05:35.248511 [info ] [MainThread]: python version: 3.11.9
+[0m19:05:35.249510 [info ] [MainThread]: python path: C:\Users\trong\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
+[0m19:05:35.250511 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m19:05:35.502515 [info ] [MainThread]: Using profiles dir at C:\Users\trong\.dbt
+[0m19:05:35.503511 [info ] [MainThread]: Using profiles.yml file at C:\Users\trong\.dbt\profiles.yml
+[0m19:05:35.503511 [info ] [MainThread]: Using dbt_project.yml file at E:\BigData\byteshop\dbt_byteshop\dbt_project.yml
+[0m19:05:35.526974 [info ] [MainThread]: adapter type: duckdb
+[0m19:05:35.528985 [info ] [MainThread]: adapter version: 1.9.3
+[0m19:05:35.632988 [info ] [MainThread]: Configuration:
+[0m19:05:35.633994 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m19:05:35.634984 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m19:05:35.634984 [info ] [MainThread]: Required dependencies:
+[0m19:05:35.635983 [debug] [MainThread]: Executing "git --help"
+[0m19:05:35.666983 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m19:05:35.667983 [debug] [MainThread]: STDERR: "b''"
+[0m19:05:35.667983 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m19:05:35.668983 [info ] [MainThread]: Connection:
+[0m19:05:35.669984 [info ] [MainThread]:   database: byteshop
+[0m19:05:35.670986 [info ] [MainThread]:   schema: main
+[0m19:05:35.671985 [info ] [MainThread]:   path: E:\BigData\byteshop\data\byteshop.db
+[0m19:05:35.671985 [info ] [MainThread]:   config_options: None
+[0m19:05:35.672984 [info ] [MainThread]:   extensions: None
+[0m19:05:35.673984 [info ] [MainThread]:   settings: {}
+[0m19:05:35.673984 [info ] [MainThread]:   external_root: .
+[0m19:05:35.674987 [info ] [MainThread]:   use_credential_provider: None
+[0m19:05:35.675987 [info ] [MainThread]:   attach: None
+[0m19:05:35.675987 [info ] [MainThread]:   filesystems: None
+[0m19:05:35.677039 [info ] [MainThread]:   remote: None
+[0m19:05:35.677984 [info ] [MainThread]:   plugins: None
+[0m19:05:35.677984 [info ] [MainThread]:   disable_transactions: False
+[0m19:05:35.678984 [info ] [MainThread]: Registered adapter: duckdb=1.9.3
+[0m19:05:35.989983 [debug] [MainThread]: Acquiring new duckdb connection 'debug'
+[0m19:05:38.279685 [debug] [MainThread]: Using duckdb connection "debug"
+[0m19:05:38.279685 [debug] [MainThread]: On debug: select 1 as id
+[0m19:05:38.280689 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m19:05:38.357684 [debug] [MainThread]: SQL status: OK in 0.078 seconds
+[0m19:05:38.358688 [debug] [MainThread]: On debug: Close
+[0m19:05:38.359678 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m19:05:38.360687 [info ] [MainThread]: [32mAll checks passed![0m
+[0m19:05:38.361678 [debug] [MainThread]: Command `dbt debug` succeeded at 19:05:38.361678 after 3.21 seconds
+[0m19:05:38.362678 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m19:05:38.362678 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026F65317ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026F656F8890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026F656F8510>]}
+[0m19:05:38.363678 [debug] [MainThread]: Flushing usage events
+[0m19:05:39.648895 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:05:48.271256 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A9CAB9E750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A9CAB9E810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A9CAB9E910>]}
+
+
+============================== 19:05:48.274247 | 712e12b8-eb32-46af-94af-0361d2597b66 ==============================
+[0m19:05:48.274247 [info ] [MainThread]: Running with dbt=1.10.2
+[0m19:05:48.275238 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'E:\\BigData\\byteshop\\dbt_byteshop\\logs', 'profiles_dir': 'C:\\Users\\trong\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt run', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m19:05:48.547778 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '712e12b8-eb32-46af-94af-0361d2597b66', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A9CAD82D50>]}
+[0m19:05:48.610857 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '712e12b8-eb32-46af-94af-0361d2597b66', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A9C5736190>]}
+[0m19:05:48.612820 [info ] [MainThread]: Registered adapter: duckdb=1.9.3
+[0m19:05:48.843109 [debug] [MainThread]: checksum: 1adc40777973ef30f45f80b3b6d04d5013c1edd53d96363881b3b199e612468b, vars: {}, profile: , target: , version: 1.10.2
+[0m19:05:48.844109 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m19:05:48.845108 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '712e12b8-eb32-46af-94af-0361d2597b66', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A9CAE0B290>]}
+[0m19:05:50.784835 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '712e12b8-eb32-46af-94af-0361d2597b66', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A9CAC65A50>]}
+[0m19:05:50.848347 [debug] [MainThread]: Wrote artifact WritableManifest to E:\BigData\byteshop\dbt_byteshop\target\manifest.json
+[0m19:05:50.863830 [debug] [MainThread]: Wrote artifact SemanticManifest to E:\BigData\byteshop\dbt_byteshop\target\semantic_manifest.json
+[0m19:05:50.920612 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '712e12b8-eb32-46af-94af-0361d2597b66', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A9CB51D310>]}
+[0m19:05:50.921611 [info ] [MainThread]: Found 2 models, 4 data tests, 428 macros
+[0m19:05:50.921611 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '712e12b8-eb32-46af-94af-0361d2597b66', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A9CB20B450>]}
+[0m19:05:50.923611 [info ] [MainThread]: 
+[0m19:05:50.924612 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m19:05:50.924612 [info ] [MainThread]: 
+[0m19:05:50.925611 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m19:05:50.929611 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_byteshop'
+[0m19:05:50.992612 [debug] [ThreadPool]: Using duckdb connection "list_byteshop"
+[0m19:05:50.993613 [debug] [ThreadPool]: On list_byteshop: /* {"app": "dbt", "dbt_version": "1.10.2", "profile_name": "dbt_byteshop", "target_name": "dev", "connection_name": "list_byteshop"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"byteshop"'
+    
+  
+  
+[0m19:05:50.993613 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m19:05:51.012164 [debug] [ThreadPool]: SQL status: OK in 0.019 seconds
+[0m19:05:51.014163 [debug] [ThreadPool]: On list_byteshop: Close
+[0m19:05:51.015162 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_byteshop, now create_byteshop_main)
+[0m19:05:51.016163 [debug] [ThreadPool]: Creating schema "database: "byteshop"
+schema: "main"
+"
+[0m19:05:51.022162 [debug] [ThreadPool]: Using duckdb connection "create_byteshop_main"
+[0m19:05:51.023163 [debug] [ThreadPool]: On create_byteshop_main: /* {"app": "dbt", "dbt_version": "1.10.2", "profile_name": "dbt_byteshop", "target_name": "dev", "connection_name": "create_byteshop_main"} */
+
+    
+        select type from duckdb_databases()
+        where lower(database_name)='byteshop'
+        and type='sqlite'
+    
+  
+[0m19:05:51.024163 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m19:05:51.025163 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m19:05:51.026163 [debug] [ThreadPool]: Using duckdb connection "create_byteshop_main"
+[0m19:05:51.027164 [debug] [ThreadPool]: On create_byteshop_main: BEGIN
+[0m19:05:51.028167 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m19:05:51.028167 [debug] [ThreadPool]: Using duckdb connection "create_byteshop_main"
+[0m19:05:51.029175 [debug] [ThreadPool]: On create_byteshop_main: /* {"app": "dbt", "dbt_version": "1.10.2", "profile_name": "dbt_byteshop", "target_name": "dev", "connection_name": "create_byteshop_main"} */
+
+    
+    
+        create schema if not exists "byteshop"."main"
+    
+[0m19:05:51.030080 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m19:05:51.031084 [debug] [ThreadPool]: On create_byteshop_main: COMMIT
+[0m19:05:51.031084 [debug] [ThreadPool]: Using duckdb connection "create_byteshop_main"
+[0m19:05:51.032099 [debug] [ThreadPool]: On create_byteshop_main: COMMIT
+[0m19:05:51.032099 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m19:05:51.033095 [debug] [ThreadPool]: On create_byteshop_main: Close
+[0m19:05:51.034084 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_byteshop_main'
+[0m19:05:51.039083 [debug] [ThreadPool]: Using duckdb connection "list_byteshop_main"
+[0m19:05:51.040084 [debug] [ThreadPool]: On list_byteshop_main: BEGIN
+[0m19:05:51.040084 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m19:05:51.041085 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m19:05:51.041085 [debug] [ThreadPool]: Using duckdb connection "list_byteshop_main"
+[0m19:05:51.042085 [debug] [ThreadPool]: On list_byteshop_main: /* {"app": "dbt", "dbt_version": "1.10.2", "profile_name": "dbt_byteshop", "target_name": "dev", "connection_name": "list_byteshop_main"} */
+select
+      'byteshop' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where lower(table_schema) = 'main'
+    and lower(table_catalog) = 'byteshop'
+  
+[0m19:05:51.057854 [debug] [ThreadPool]: SQL status: OK in 0.015 seconds
+[0m19:05:51.058868 [debug] [ThreadPool]: On list_byteshop_main: ROLLBACK
+[0m19:05:51.072854 [debug] [ThreadPool]: Failed to rollback 'list_byteshop_main'
+[0m19:05:51.072854 [debug] [ThreadPool]: On list_byteshop_main: Close
+[0m19:05:51.074863 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '712e12b8-eb32-46af-94af-0361d2597b66', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A9CB578450>]}
+[0m19:05:51.074863 [debug] [MainThread]: Using duckdb connection "master"
+[0m19:05:51.075856 [debug] [MainThread]: On master: BEGIN
+[0m19:05:51.075856 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m19:05:51.076856 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m19:05:51.076856 [debug] [MainThread]: On master: COMMIT
+[0m19:05:51.077856 [debug] [MainThread]: Using duckdb connection "master"
+[0m19:05:51.077856 [debug] [MainThread]: On master: COMMIT
+[0m19:05:51.078856 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m19:05:51.078856 [debug] [MainThread]: On master: Close
+[0m19:05:51.084258 [debug] [Thread-1 (]: Began running node model.dbt_byteshop.my_first_dbt_model
+[0m19:05:51.084258 [info ] [Thread-1 (]: 1 of 2 START sql table model main.my_first_dbt_model ........................... [RUN]
+[0m19:05:51.085358 [debug] [Thread-1 (]: Acquiring new duckdb connection 'model.dbt_byteshop.my_first_dbt_model'
+[0m19:05:51.086367 [debug] [Thread-1 (]: Began compiling node model.dbt_byteshop.my_first_dbt_model
+[0m19:05:51.092371 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_byteshop.my_first_dbt_model"
+[0m19:05:51.094649 [debug] [Thread-1 (]: Began executing node model.dbt_byteshop.my_first_dbt_model
+[0m19:05:51.121656 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_byteshop.my_first_dbt_model"
+[0m19:05:51.123649 [debug] [Thread-1 (]: Using duckdb connection "model.dbt_byteshop.my_first_dbt_model"
+[0m19:05:51.124649 [debug] [Thread-1 (]: On model.dbt_byteshop.my_first_dbt_model: BEGIN
+[0m19:05:51.124649 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m19:05:51.125649 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m19:05:51.126661 [debug] [Thread-1 (]: Using duckdb connection "model.dbt_byteshop.my_first_dbt_model"
+[0m19:05:51.126661 [debug] [Thread-1 (]: On model.dbt_byteshop.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.10.2", "profile_name": "dbt_byteshop", "target_name": "dev", "node_id": "model.dbt_byteshop.my_first_dbt_model"} */
+
+  
+    
+    
+
+    create  table
+      "byteshop"."main"."my_first_dbt_model__dbt_tmp"
+  
+    as (
+      /*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+
+
+with source_data as (
+
+    select 1 as id
+    union all
+    select null as id
+
+)
+
+select *
+from source_data
+
+/*
+    Uncomment the line below to remove records with null `id` values
+*/
+
+-- where id is not null
+    );
+  
+  
+[0m19:05:51.129564 [debug] [Thread-1 (]: SQL status: OK in 0.002 seconds
+[0m19:05:51.134569 [debug] [Thread-1 (]: Using duckdb connection "model.dbt_byteshop.my_first_dbt_model"
+[0m19:05:51.135570 [debug] [Thread-1 (]: On model.dbt_byteshop.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.10.2", "profile_name": "dbt_byteshop", "target_name": "dev", "node_id": "model.dbt_byteshop.my_first_dbt_model"} */
+alter table "byteshop"."main"."my_first_dbt_model__dbt_tmp" rename to "my_first_dbt_model"
+[0m19:05:51.136570 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m19:05:51.146569 [debug] [Thread-1 (]: On model.dbt_byteshop.my_first_dbt_model: COMMIT
+[0m19:05:51.147571 [debug] [Thread-1 (]: Using duckdb connection "model.dbt_byteshop.my_first_dbt_model"
+[0m19:05:51.147571 [debug] [Thread-1 (]: On model.dbt_byteshop.my_first_dbt_model: COMMIT
+[0m19:05:51.152092 [debug] [Thread-1 (]: SQL status: OK in 0.004 seconds
+[0m19:05:51.157098 [debug] [Thread-1 (]: Using duckdb connection "model.dbt_byteshop.my_first_dbt_model"
+[0m19:05:51.157098 [debug] [Thread-1 (]: On model.dbt_byteshop.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.10.2", "profile_name": "dbt_byteshop", "target_name": "dev", "node_id": "model.dbt_byteshop.my_first_dbt_model"} */
+drop table if exists "byteshop"."main"."my_first_dbt_model__dbt_backup" cascade
+[0m19:05:51.158104 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m19:05:51.160098 [debug] [Thread-1 (]: On model.dbt_byteshop.my_first_dbt_model: Close
+[0m19:05:51.168607 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '712e12b8-eb32-46af-94af-0361d2597b66', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A9CB85B010>]}
+[0m19:05:51.169612 [info ] [Thread-1 (]: 1 of 2 OK created sql table model main.my_first_dbt_model ...................... [[32mOK[0m in 0.08s]
+[0m19:05:51.170125 [debug] [Thread-1 (]: Finished running node model.dbt_byteshop.my_first_dbt_model
+[0m19:05:51.171542 [debug] [Thread-1 (]: Began running node model.dbt_byteshop.my_second_dbt_model
+[0m19:05:51.171542 [info ] [Thread-1 (]: 2 of 2 START sql view model main.my_second_dbt_model ........................... [RUN]
+[0m19:05:51.172576 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_byteshop.my_first_dbt_model, now model.dbt_byteshop.my_second_dbt_model)
+[0m19:05:51.172576 [debug] [Thread-1 (]: Began compiling node model.dbt_byteshop.my_second_dbt_model
+[0m19:05:51.175614 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_byteshop.my_second_dbt_model"
+[0m19:05:51.176548 [debug] [Thread-1 (]: Began executing node model.dbt_byteshop.my_second_dbt_model
+[0m19:05:51.192575 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_byteshop.my_second_dbt_model"
+[0m19:05:51.194546 [debug] [Thread-1 (]: Using duckdb connection "model.dbt_byteshop.my_second_dbt_model"
+[0m19:05:51.194546 [debug] [Thread-1 (]: On model.dbt_byteshop.my_second_dbt_model: BEGIN
+[0m19:05:51.195553 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m19:05:51.195553 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m19:05:51.196571 [debug] [Thread-1 (]: Using duckdb connection "model.dbt_byteshop.my_second_dbt_model"
+[0m19:05:51.196571 [debug] [Thread-1 (]: On model.dbt_byteshop.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.10.2", "profile_name": "dbt_byteshop", "target_name": "dev", "node_id": "model.dbt_byteshop.my_second_dbt_model"} */
+
+  
+  create view "byteshop"."main"."my_second_dbt_model__dbt_tmp" as (
+    -- Use the `ref` function to select from other models
+
+select *
+from "byteshop"."main"."my_first_dbt_model"
+where id = 1
+  );
+
+[0m19:05:51.197572 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m19:05:51.200572 [debug] [Thread-1 (]: Using duckdb connection "model.dbt_byteshop.my_second_dbt_model"
+[0m19:05:51.200572 [debug] [Thread-1 (]: On model.dbt_byteshop.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.10.2", "profile_name": "dbt_byteshop", "target_name": "dev", "node_id": "model.dbt_byteshop.my_second_dbt_model"} */
+alter view "byteshop"."main"."my_second_dbt_model__dbt_tmp" rename to "my_second_dbt_model"
+[0m19:05:51.201963 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m19:05:51.202968 [debug] [Thread-1 (]: On model.dbt_byteshop.my_second_dbt_model: COMMIT
+[0m19:05:51.203968 [debug] [Thread-1 (]: Using duckdb connection "model.dbt_byteshop.my_second_dbt_model"
+[0m19:05:51.203968 [debug] [Thread-1 (]: On model.dbt_byteshop.my_second_dbt_model: COMMIT
+[0m19:05:51.205967 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m19:05:51.207966 [debug] [Thread-1 (]: Using duckdb connection "model.dbt_byteshop.my_second_dbt_model"
+[0m19:05:51.208967 [debug] [Thread-1 (]: On model.dbt_byteshop.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.10.2", "profile_name": "dbt_byteshop", "target_name": "dev", "node_id": "model.dbt_byteshop.my_second_dbt_model"} */
+drop view if exists "byteshop"."main"."my_second_dbt_model__dbt_backup" cascade
+[0m19:05:51.209976 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m19:05:51.210978 [debug] [Thread-1 (]: On model.dbt_byteshop.my_second_dbt_model: Close
+[0m19:05:51.211973 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '712e12b8-eb32-46af-94af-0361d2597b66', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A9CB9D5BD0>]}
+[0m19:05:51.211973 [info ] [Thread-1 (]: 2 of 2 OK created sql view model main.my_second_dbt_model ...................... [[32mOK[0m in 0.04s]
+[0m19:05:51.212990 [debug] [Thread-1 (]: Finished running node model.dbt_byteshop.my_second_dbt_model
+[0m19:05:51.214974 [debug] [MainThread]: Using duckdb connection "master"
+[0m19:05:51.214974 [debug] [MainThread]: On master: BEGIN
+[0m19:05:51.215974 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m19:05:51.216973 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m19:05:51.216973 [debug] [MainThread]: On master: COMMIT
+[0m19:05:51.216973 [debug] [MainThread]: Using duckdb connection "master"
+[0m19:05:51.217972 [debug] [MainThread]: On master: COMMIT
+[0m19:05:51.217972 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m19:05:51.218973 [debug] [MainThread]: On master: Close
+[0m19:05:51.218973 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m19:05:51.219990 [debug] [MainThread]: Connection 'create_byteshop_main' was properly closed.
+[0m19:05:51.219990 [debug] [MainThread]: Connection 'list_byteshop_main' was properly closed.
+[0m19:05:51.219990 [debug] [MainThread]: Connection 'model.dbt_byteshop.my_second_dbt_model' was properly closed.
+[0m19:05:51.220972 [info ] [MainThread]: 
+[0m19:05:51.221973 [info ] [MainThread]: Finished running 1 table model, 1 view model in 0 hours 0 minutes and 0.30 seconds (0.30s).
+[0m19:05:51.221973 [debug] [MainThread]: Command end result
+[0m19:05:51.239990 [debug] [MainThread]: Wrote artifact WritableManifest to E:\BigData\byteshop\dbt_byteshop\target\manifest.json
+[0m19:05:51.242974 [debug] [MainThread]: Wrote artifact SemanticManifest to E:\BigData\byteshop\dbt_byteshop\target\semantic_manifest.json
+[0m19:05:51.248269 [debug] [MainThread]: Wrote artifact RunExecutionResult to E:\BigData\byteshop\dbt_byteshop\target\run_results.json
+[0m19:05:51.249278 [info ] [MainThread]: 
+[0m19:05:51.249278 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m19:05:51.250278 [info ] [MainThread]: 
+[0m19:05:51.250278 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=2
+[0m19:05:51.252293 [debug] [MainThread]: Command `dbt run` succeeded at 19:05:51.251277 after 3.06 seconds
+[0m19:05:51.252293 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A9C4B6F7D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A9C4AF2910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A9C4AF3A50>]}
+[0m19:05:51.253277 [debug] [MainThread]: Flushing usage events
+[0m19:05:52.426016 [debug] [MainThread]: An error was encountered while trying to flush usage events

@@ -1,0 +1,12 @@
+# requirements.txt
+
+# Core data transformation and warehousing
+dbt-duckdb==1.8.2
+duckdb==1.0.0
+pandas==2.2.2
+
+# Data pipeline orchestration
+mage-ai==0.9.68
+
+# Data generation
+faker==25.8.0
